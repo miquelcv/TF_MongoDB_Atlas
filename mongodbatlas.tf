@@ -4,7 +4,7 @@ provider "mongodbatlas" {
 }
 resource "mongodbatlas_project_ip_whitelist" "test" {
     project_id = 5e0f2eabc56c98607861b421
-
+  
     whitelist {
       cidr_block = "1.2.3.4/32"
       comment    = "cidr block for tf acc testing"
