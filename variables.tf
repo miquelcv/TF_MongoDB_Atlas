@@ -3,6 +3,7 @@ variable "MONGODB_ATLAS_PUBLIC_KEY" {
   default = "Public_Key"
 }
 
-variable "Private_Key" {
+variable "MONGODB_ATLAS_PRIVATE_KEY" {
   type = string
+   default = "Private_Key"
 }
