@@ -1,5 +1,5 @@
 provider "mongodbatlas" {
-  public_key = $MONGODB_ATLAS_PUBLIC_KEY
+  public_key = MONGODB_ATLAS_PUBLIC_KEY
   private_key  = MONGODB_ATLAS_PRIVATE_KEY
 }
 
