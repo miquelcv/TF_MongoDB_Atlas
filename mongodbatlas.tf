@@ -1,6 +1,6 @@
 provider "mongodbatlas" {
-  public_key = "${var.mongodbatlas_public_key}"
-  private_key  = "${var.mongodbatlas_private_key}"
+  public_key = "${var.MONGODB_ATLAS_PUBLIC_KEY}"
+  private_key  = "${var.MONGODB_ATLAS_PRIVATE_KEY}"
 }
 
 resource "mongodbatlas_project_ip_whitelist" "test" {
